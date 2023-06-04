@@ -10,7 +10,7 @@
 - 1220100074 - Ana Isabel Jasso Velazquez.         
 
 ## Beneficiario
-- 
+- Ricardo Alexis: Al contar con este casco inteligente tendré mucha más confianza de viajar en carretera y de recorrer largos caminos por la noche, en conclusión, me sentiré más seguro. Ya que cada semana salgo de viaje.
 
 ## Hardware
 | Num. | Componente | Descripción | Imagen | Costo | Cantidad |
@@ -41,6 +41,8 @@
 |  HU004  | Yo Ricardo Alexis quiero rastrear la ubicación del casco, por lo tanto, la ubicación siempre será en tiempo real | Podría | 1 | En el monitor remoto debe aparecerá la ubucacion del casco, siempre y cuadno este cuente con acceso a internet. |  Jairo Barrón  |
 | HU005 | Yo Ricardo Alexis quiero que el casco inteligente sea capaz de conectar a mi telefono movil para reproducir musica | Podría | 6 | El casco mantiene activado el bluetooth para conectar al telefono y reproducir la musica por medio del altavoz integrado | Ana Jasso |
 | HU006 | Yo Ricardo Alexis quiero que el casco inteligente detecte objetos a distancia por medio de un radar que me permita tener esa visibilidad extra | Estaría bien | 4 | El casco inteligente mantiene el sensor ultrasonico integrado en funcionamiento mientras detecta los objetos a largas distancias evitando accidentes por choques inesperados en cruces| Ana Jasso |
+| HU007 | Yo Ricardo Alexis al encontrarme en la posibilidad de tener un accidente en moto el sensor Sw-420 debe de activarse al tener un impacto para dar paso a los demás sensores y a sus funciones| Debe | 1 | El sensor al detectar una vibración por algún golpe manda un pulso alto “1” a su salida y al no detectar vibración la salida se mantiene en estado bajo “0”. | Ricardo Alexis |
+| HU008 | Yo Ricardo Alexis al encontrarme en un viaje largo tendre integrado en mi casco un sensor Dht11 para que mida la temperatura y humedad de esta manera poder evitar un golpe de calor. | Podría | 1 | El sensor detectará la temperatura y humedad y lo reflejará en la pantalla de este modo el usuario podrá verlo. | Ricardo Alexis  |
 
 ## Prototipo en dibujo
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/4e987846-8272-4976-a0ed-eee1e175dd6f)
