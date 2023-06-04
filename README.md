@@ -55,7 +55,11 @@
 ## Prototipo en dibujo
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/4e987846-8272-4976-a0ed-eee1e175dd6f)
 
+## Prototipo en Fitzing
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/a9c8c772-5f28-4556-9303-5220a804c547)
+
 ## Placa PCB
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/fac868ba-5ee2-4765-80e2-b556c768172e)
 
 ## Prototipo en 3D
 - ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/03b22de5-3781-4df9-9378-e258bfdfc3a4)
