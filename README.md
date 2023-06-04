@@ -58,4 +58,10 @@
 ## Placa PCB
 
 ## Prototipo en 3D
+- ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/03b22de5-3781-4df9-9378-e258bfdfc3a4)
+- ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/7796be0d-2c14-44fd-8657-03a0c4d34e0a)
+- ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/cc179d24-71a5-4609-a978-d3dd9e97a599)
+- ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/84ee540f-e531-4049-badb-ccb19fcad49f)
+
+
 
