@@ -24,6 +24,8 @@
 |7| Placa Arduino UNO | Es un dispositivo microcontrolador que permite hacer la conexión entre los dispositivos permitiendo el envío de señales a los actuadores y sensores |![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/93737169/681e9f29-bc5e-4c41-b7fe-7dc8af2748b7)|$|1|
 |8| Saltar cables | Son los cables que serviran para hacer las conexiones entre todos los dispositivos del casco inteligente |![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/93737169/fd0f6fab-c76d-4399-a47d-14cff5cc8c25)|$79.00|1|
 |9| LEDRGB | Este componente tiene como objetivo mandar las alertas por medio de cambios de color en el led dentro del casco inteligente en la detección de objetos|![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/93737169/2b0a0d29-cf68-4476-a386-98c117cb6b3f)|$65.50|1|
+|10| Modulo Sensor De Luz Fotorresistencia LDR | Es un sensor capaz de detectar la intensidad de la luz emitida sobre su superficie de panel | ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/623f25e1-08f5-48a5-b730-9729dda3701d) | $39.00 | 1 |
+|11| Tiras Led RGB | Placa flexible de diodos semiconductores tipo LED que emiten luz en una sola cara. | ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/c1b04a9b-feff-46c8-b876-24e4cca1409c) | $100.00 | 1 metro |
 
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
@@ -31,6 +33,10 @@
 | 1 | Python | 3.9 | Software Libre |
 | 2 | Visual Studio Code | 1.72.2 | Software Libre |
 | 3 | IDE de Arduino | 1.6.0 | Software Libre |
+| 4 | Open Computer Vision | 4.70 | Biblioteca de Visión Artificial. |
+| 5 | VLC Media Player | 3.0.17 | Reproductor de medios multiplataforma. | 
+| 6 | Teachable Machine | 2.0 | Plataforma para desarrollar modelos de Aprendizaje Automático. | 
+| 7 | NumPy | 1.19.2 | Biblioteca para Python. |
 
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
@@ -43,6 +49,8 @@
 | HU006 | Yo Ricardo Alexis quiero que el casco inteligente detecte objetos a distancia por medio de un radar que me permita tener esa visibilidad extra | Estaría bien | 4 | El casco inteligente mantiene el sensor ultrasonico integrado en funcionamiento mientras detecta los objetos a largas distancias evitando accidentes por choques inesperados en cruces| Ana Jasso |
 | HU007 | Yo Ricardo Alexis al encontrarme en la posibilidad de tener un accidente en moto el sensor Sw-420 debe de activarse al tener un impacto para dar paso a los demás sensores y a sus funciones| Debe | 1 | El sensor al detectar una vibración por algún golpe manda un pulso alto “1” a su salida y al no detectar vibración la salida se mantiene en estado bajo “0”. | Ricardo Alexis |
 | HU008 | Yo Ricardo Alexis al encontrarme en un viaje largo tendre integrado en mi casco un sensor Dht11 para que mida la temperatura y humedad de esta manera poder evitar un golpe de calor. | Podría | 1 | El sensor detectará la temperatura y humedad y lo reflejará en la pantalla de este modo el usuario podrá verlo. | Ricardo Alexis  |
+| HU009 | Yo Ricardo Alexis, quiero que el software instalado en el casco detecté y me alerte si es que, en determinado momento del viaje, pudiera quedarme dormido, para prevenir un accidente y salvaguardar tanto mi vida, como la de los demás conductores. | Debe | 4 | El sistema detecta los parpadeos del usuario y el tiempo que pasa con los ojos cerrados, si el tiempo excede los 4 segundos, el sistema activará una alerta por medio de un altavoz, para alertar al usuario y pueda reaccionar lo antes posible. | Carlos Rangel |
+| HU010 | Como usuario, quiero que el casco cuente con iluminación automática, en la parte exterior, para facilitar que los conductores tengan una mejor visión de mi posición. Además, en caso de sufrir un accidente de noche, pueda ser ubicado rápidamente. | Podría | 2 | Las tiras led colocadas en la parte exterior del casco, se encienden automáticamente al caer la noche. | Carlos Rangel |
 
 ## Prototipo en dibujo
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/4e987846-8272-4976-a0ed-eee1e175dd6f)
