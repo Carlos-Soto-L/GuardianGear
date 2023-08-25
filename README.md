@@ -73,12 +73,15 @@
 
 ## Demostración
 Video 1: clic aqui
+Video 2: https://drive.google.com/file/d/1OzAJaQYKNuirxHbniSRFi4TqVrkwg_mh/view?usp=sharing
 
 ## Fotografías del casco
 <p align="center">
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/feb39a60-8167-470c-a60b-4d1a9638a6ab">
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/f5a94266-0bdc-4558-9973-41d567f05b84">
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/18f325f1-c6ec-4121-abda-58c7a84739d5">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/e542039e-dcf8-455e-9a19-693feec3983d">
+
 </p>
 
 Fotografía monitoreo portatil.
