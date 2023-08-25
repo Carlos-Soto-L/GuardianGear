@@ -63,6 +63,15 @@
 ## Carta
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/145bdc55-b6d9-4781-9863-27ec6c66aa24)
 
+## Demostración
+Video 1: clic aqui
 
+## Fotografías del casco
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/feb39a60-8167-470c-a60b-4d1a9638a6ab)
 
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/f5a94266-0bdc-4558-9973-41d567f05b84)
 
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/18f325f1-c6ec-4121-abda-58c7a84739d5)
+
+Fotografía monitoreo portatil.
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/90513016-30f2-469e-91c6-32f4f2fad792)
