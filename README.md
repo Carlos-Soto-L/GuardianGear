@@ -8,7 +8,7 @@
 - 1219100566 - Ricardo Alexis Rioyos Ramirez.       
 
 ## Beneficiario
-- [POR DEFINIRSE]
+- Daniel Rangel Paredón, empleado del establecimiento "Tacos el Oso", desempeña la función de repartidor.
 
 ## Hardware
 | Num. | Componente | Descripción | Imagen | Costo | Cantidad |
