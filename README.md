@@ -60,5 +60,9 @@
 - ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/cc179d24-71a5-4609-a978-d3dd9e97a599)
 - ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/84ee540f-e531-4049-badb-ccb19fcad49f)
 
+## Carta
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/145bdc55-b6d9-4781-9863-27ec6c66aa24)
+
+
 
 
