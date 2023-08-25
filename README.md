@@ -53,6 +53,9 @@ Ejemplo de un registro:
 
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/286c879d-18d3-42a3-bd63-713bd65d024d)
 
+## Diagrama de despliegue
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/274135fb-325d-45a3-80b8-bdf372dedf50)
+
 
 ## Prototipo en dibujo
 <p align="center">
