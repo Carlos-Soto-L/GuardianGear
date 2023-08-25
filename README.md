@@ -45,33 +45,61 @@
 | HU008 | Como beneficiario, necesito que el sitio web donde se muestra información de mi ubicación y entorno esté protegido por un módulo de login, asegurando así que solo las personas autorizadas puedan ingresar. | Debe | 1 | Al acceder al sitio web, este debe solicitar credenciales para permitir el acceso. | Carlos Daniel |
 
 ## Prototipo en dibujo
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/4e987846-8272-4976-a0ed-eee1e175dd6f)
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/4e987846-8272-4976-a0ed-eee1e175dd6f">
+</p>
 
 ## Prototipo en Fitzing
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/3ee351e7-4963-47b1-8631-f0ddf93159ed)
-
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/3ee351e7-4963-47b1-8631-f0ddf93159ed">
+</p>
 
 ## Placa PCB
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/df405c02-3de7-447b-93f9-96d790d16ab5)
-
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/df405c02-3de7-447b-93f9-96d790d16ab5">
+</p>
 
 ## Prototipo en 3D
-- ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/7796be0d-2c14-44fd-8657-03a0c4d34e0a)
-- ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/cc179d24-71a5-4609-a978-d3dd9e97a599)
-- ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/84ee540f-e531-4049-badb-ccb19fcad49f)
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/7796be0d-2c14-44fd-8657-03a0c4d34e0a">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/cc179d24-71a5-4609-a978-d3dd9e97a599">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/84ee540f-e531-4049-badb-ccb19fcad49f">
+</p>
 
 ## Carta
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/145bdc55-b6d9-4781-9863-27ec6c66aa24)
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/145bdc55-b6d9-4781-9863-27ec6c66aa24">
+</p>
 
 ## Demostración
 Video 1: clic aqui
 
 ## Fotografías del casco
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/feb39a60-8167-470c-a60b-4d1a9638a6ab)
-
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/f5a94266-0bdc-4558-9973-41d567f05b84)
-
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/18f325f1-c6ec-4121-abda-58c7a84739d5)
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/feb39a60-8167-470c-a60b-4d1a9638a6ab">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/f5a94266-0bdc-4558-9973-41d567f05b84">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/18f325f1-c6ec-4121-abda-58c7a84739d5">
+</p>
 
 Fotografía monitoreo portatil.
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/90513016-30f2-469e-91c6-32f4f2fad792)
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/90513016-30f2-469e-91c6-32f4f2fad792">
+</p>
+
+## Fotografías del sistema
+**Login**
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/6b0963ba-ef67-4e10-9187-1aa722256a26">
+</p>
+
+**Home (Dashboard principal)**
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/585d45b4-a897-434b-87ff-1bd406a52ea1">
+</p>
+
+**Historial (Recorridos hechos por el conductor)**
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/6f3b8509-63d4-41e3-99f5-8ab13573b56c">
+</p>
+
+
