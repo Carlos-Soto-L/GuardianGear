@@ -48,13 +48,14 @@
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/4e987846-8272-4976-a0ed-eee1e175dd6f)
 
 ## Prototipo en Fitzing
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/a9c8c772-5f28-4556-9303-5220a804c547)
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/3ee351e7-4963-47b1-8631-f0ddf93159ed)
+
 
 ## Placa PCB
-![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/fac868ba-5ee2-4765-80e2-b556c768172e)
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/df405c02-3de7-447b-93f9-96d790d16ab5)
+
 
 ## Prototipo en 3D
-- ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/03b22de5-3781-4df9-9378-e258bfdfc3a4)
 - ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/7796be0d-2c14-44fd-8657-03a0c4d34e0a)
 - ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/cc179d24-71a5-4609-a978-d3dd9e97a599)
 - ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/84ee540f-e531-4049-badb-ccb19fcad49f)
