@@ -30,9 +30,7 @@
 | 2 | Visual Studio Code | 1.72.2 | Software Libre |
 | 3 | IDE de Arduino | 1.6.0 | Software Libre |
 | 4 | Open Computer Vision | 4.70 | Biblioteca de Visión Artificial. |
-| 5 | VLC Media Player | 3.0.17 | Reproductor de medios multiplataforma. | 
-| 6 | Teachable Machine | 2.0 | Plataforma para desarrollar modelos de Aprendizaje Automático. | 
-| 7 | NumPy | 1.19.2 | Biblioteca para Python. |
+| 6 | NumPy | 1.19.2 | Biblioteca para Python. |
 
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
