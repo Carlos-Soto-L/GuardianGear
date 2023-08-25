@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket con ws</title>
+</head>
+<body>
+    <button id="sendButton">Enviar</button>
+
+    <script>
+        // Supongamos que el servidor WebSocket se encuentra en 'ws://direccion-del-servidor:3000'
+        const socket = new WebSocket('ws://3.134.204.135:3000');
+
+        socket.onopen = function(event) {
+            console.log("Conexión abierta", event);
+        };
+
+        socket.onmessage = function(event) {
+            console.log("Mensaje recibido:", event.data);
+        };
+
+        socket.onerror = function(error) {
+            console.log(`Error detectado: ${error.message}`);
+        };
+
+        document.getElementById('sendButton').addEventListener('click', function() {
+            const data = {
+                tipo: "buzzer",
+                valor: 1
+            };
+            socket.send(JSON.stringify(data));
+        });
+    </script>
+</body>
+</html>

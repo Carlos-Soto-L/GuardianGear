@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <form action="/verHistorial" method="get">
+      <button id="history-btn" class="btn btn-primary" type="submit">Ver Historia</button>
+    </form>
+
+    <form action="/" method="get">
+      <button id="cerrarSesion" class="btn btn-primary" type="submit">Cerrar sesión</button>
+    </form>
+
+
+    <button id="Alertar" class="btn btn-primary" type="submit">Alertar</button>
+    <h1>Ubicación:</h1>
+    <div>
+         <input type="text" id="latitude" value="12.000">
+         <input type="text" id="longitude" value="12.000">
+        <button onclick="initMap()">Actualizar Ubicación</button>
+    </div>
+    <div id="map" style="width: 800px; height: 400px;"></div>
+
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-6">
+        <div id="summary">
+          <p>Temperatura más alta: <span id="maxValue">N/A</span><span>°C</span></p>
+          <p>Temperatura más baja: <span id="minValue">N/A</span><span>°C</span></p>
+        </div>
+    
+        <canvas id="myChart" width="400" height="200"></canvas>
+      </div>
+      <div class="col-6">
+        <div id="summary">
+          <p>Humedad más alta: <span id="maxValueHum">N/A</span><span>%</span></p>
+          <p>Humedad más baja: <span id="minValueHum">N/A</span><span>%</span></p>
+        </div>
+        <canvas id="myChartHumedad" width="400" height="200"></canvas>
+      </div>
+
+      
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- JAVASCRIPT  -->
+    <script>
+
+        let map;
+        let marker;
+        let latitude;
+        let longitude;
+        var now;
+        var maxTemp = -Infinity; // Inicializa a un valor muy bajo
+        var minTemp = Infinity;  // Inicializa a un valor muy alto
+        var maxHum = -Infinity; // Inicializa a un valor muy bajo
+        var minHum = Infinity;  // Inicializa a un valor muy alto
+
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+          type: 'line', // Tipo de gráfica
+          data: {
+            labels: [], // Etiquetas (opcional, por ejemplo, marcas de tiempo)
+            datasets: [{
+              label: 'Temperatura',
+              data: [], // Datos que se actualizarán
+              borderColor: 'rgba(75, 192, 192, 1)',
+              borderWidth: 1,
+              fill: false
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+
+        
+
+        var ctx2 = document.getElementById('myChartHumedad').getContext('2d');
+        var myChart2 = new Chart(ctx2, {
+          type: 'line', // Tipo de gráfica
+          data: {
+            labels: [], // Etiquetas (opcional, por ejemplo, marcas de tiempo)
+            datasets: [{
+              label: 'Humedad',
+              data: [], // Datos que se actualizarán
+              borderColor: 'rgba(175, 192, 150, 1)',
+              borderWidth: 1,
+              fill: false
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+
+        const platform = new H.service.Platform({
+            apikey: "y8oZPgUj5u38WoI0u3npSzuN9A7xG0WJ05iLmy87nuQ"
+        });
+
+        const defaultLayers = platform.createDefaultLayers();
+
+      // Conectar al servidor WebSocket
+      var ws = new WebSocket('ws://3.134.204.135:3000');
+
+
+      ws.onopen = function() {
+        console.log('Connected to WebSocket');
+      };
+
+      ws.onerror = function(error) {
+        console.error('WebSocket Error: ', error);
+      };
+
+      // Escuchar mensajes
+      var lastUpdateTime = 0;
+      var updateDelay = 5000; // Actualizar el mapa cada 30 segundos
+
+      // SENSOR DHT11
+      // Escuchar mensajes
+      var lastUpdateTimedht11 = 0;
+      var updateDelaydht11 = 5000; // Actualizar el mapa cada 30 segundos
+
+      ws.onmessage = function(event) {
+        var mensaje = JSON.parse(event.data);
+
+        // Verificar si es de tipo "sensorGPS"
+        if (mensaje.tipo === "sensorGPS") {
+          now = new Date().getTime();
+
+          // Si ha pasado suficiente tiempo desde la última actualización, actualizar el mapa
+          if (now - lastUpdateTime > updateDelay) {
+
+            var latitud = mensaje.lat;
+            var longitud = mensaje.lon;
+
+            // Actualizar los campos de entrada
+            document.getElementById('latitude').value = latitud;
+            document.getElementById('longitude').value = longitud;
+          
+            console.log("ACTUALIZAR MAPA")
+            initMap();
+            lastUpdateTime = now;
+          }
+          // SENSOR DE DHT11
+        }else if (mensaje.tipo === "sensorDHT11") {
+          now = new Date().getTime();
+          if (now - lastUpdateTimedht11 > updateDelaydht11) {
+          // Si ha pasado suficiente tiempo desde la última actualización, actualizar el mapa
+            var temperatura = mensaje.temp;
+
+            // Añadir datos a la gráfica
+            myChart.data.labels.push(new Date().toLocaleTimeString()); // Añadir etiqueta de tiempo (opcional)
+            myChart.data.datasets[0].data.push(temperatura); // Añadir valor de temperatura
+
+            // Actualizar gráfica
+            myChart.update();
+
+            if (temperatura > maxTemp) {
+              maxTemp = temperatura;
+              document.getElementById('maxValue').innerText = maxTemp;
+            }
+
+            if (temperatura < minTemp) {
+              minTemp = temperatura;
+              document.getElementById('minValue').innerText = minTemp;
+            }
+
+            // Si ha pasado suficiente tiempo desde la última actualización, actualizar el mapa
+            var humedad = mensaje.hum;
+
+            // Añadir datos a la gráfica
+            myChart2.data.labels.push(new Date().toLocaleTimeString()); // Añadir etiqueta de tiempo (opcional)
+            myChart2.data.datasets[0].data.push(humedad); // Añadir valor de temperatura
+
+            // Actualizar gráfica
+            myChart2.update();
+
+            if (humedad > maxHum) {
+              maxHum = humedad;
+              document.getElementById('maxValueHum').innerText = maxHum;
+            }
+
+            if (humedad < minHum) {
+              minHum = humedad;
+              document.getElementById('minValueHum').innerText = minHum;
+            }
+
+            lastUpdateTimedht11 = now;
+
+          }
+        }
+      };
+
+      function initializeMap(lat, lng) {
+            map = new H.Map(
+                document.getElementById('map'),
+                defaultLayers.vector.normal.map,
+                {
+                    zoom: 14,
+                    center: { lat, lng }
+                }
+            );
+            marker = new H.map.Marker({ lat, lng });
+            map.addObject(marker);
+        }
+
+      function initMap() {
+        const lat = parseFloat(document.getElementById('latitude').value);
+            const lng = parseFloat(document.getElementById('longitude').value);
+            map.setCenter({ lat, lng });
+            marker.setGeometry({ lat, lng });
+      }
+
+      // Inicializar el mapa en la carga de la página
+      window.onload = initializeMap(12.12313, -12.3134);
+
+
+
+            document.getElementById('Alertar').addEventListener('click', function() {
+                const data = {
+                    tipo: "buzzer",
+                    valor: 1
+                };
+                ws.send(JSON.stringify(data));
+            });
+    </script>
+
+
+
+
+  </body>
+</html>
