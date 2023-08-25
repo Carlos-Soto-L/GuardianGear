@@ -43,6 +43,16 @@
 | HU006 | Como beneficiario, deseo que una alarma me alerte cuando mi encargado ha intentado contactarme por algún asunto y no ha podido hacerlo. | Debe | 4 | En el sitio web habrá un botón que, al presionarlo, activará una alarma integrada en el casco. | Jairo Barron |
 | HU007 | Como beneficiario, necesito que mi ubicación, al ser almacenada en la base de datos, esté encriptada para protegerme de posibles peligros.| Debe | 1 | Al consultar en la base de datos los registros de la ubicación del casco, estos deben estar encriptados. | Carlos Daniel |
 | HU008 | Como beneficiario, necesito que el sitio web donde se muestra información de mi ubicación y entorno esté protegido por un módulo de login, asegurando así que solo las personas autorizadas puedan ingresar. | Debe | 1 | Al acceder al sitio web, este debe solicitar credenciales para permitir el acceso. | Carlos Daniel |
+## Base de datos
+MongoDB
+
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/744dfab3-5f9d-41d1-9907-0e45e595e930)
+
+
+Ejemplo de un registro:
+
+![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/286c879d-18d3-42a3-bd63-713bd65d024d)
+
 
 ## Prototipo en dibujo
 <p align="center">
