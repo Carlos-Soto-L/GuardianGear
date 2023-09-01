@@ -29,8 +29,9 @@
 | 1 | Python | 3.9 | Software Libre |
 | 2 | Visual Studio Code | 1.72.2 | Software Libre |
 | 3 | IDE de Arduino | 1.6.0 | Software Libre |
-| 4 | Open Computer Vision | 4.70 | Biblioteca de Visión Artificial. |
-| 6 | NumPy | 1.19.2 | Biblioteca para Python. |
+|4|ExpressJS|	4.17.1|	Framework|
+|5|NodeJS	|14.17.0	|Entorno|
+|6|WebSocket	|1.0.31|	Protocolo|
 
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
