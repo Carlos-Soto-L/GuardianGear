@@ -64,13 +64,26 @@ Ejemplo de un registro:
 </p>
 
 ## Prototipo en Fitzing
+CASCO
 <p align="center">
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/3ee351e7-4963-47b1-8631-f0ddf93159ed">
 </p>
 
+PANTALLITA
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/c1faf9ec-281d-4124-97a8-9ed2a80603ff">
+</p>
+
+
 ## Placa PCB
+CASCO
 <p align="center">
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/df405c02-3de7-447b-93f9-96d790d16ab5">
+</p>
+
+PANTALLITA
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/146ef5df-52c9-422c-bb3a-70e101510fd5">
 </p>
 
 ## Prototipo en 3D
