@@ -21,7 +21,7 @@ class WebSocketClass {
       }
 
       // Configurar el temporizador de inactividad. Por ejemplo, 30 segundos de inactividad.
-      this.inactivityTimeout = setTimeout(this.fin.bind(this), 30 * 1000); // .bind(this) es para asegurarnos de que 'this' dentro de fin() apunta a la instancia de WebSocketClass
+      this.inactivityTimeout = setTimeout(this.fin.bind(this), 60 * 1000); // .bind(this) es para asegurarnos de que 'this' dentro de fin() apunta a la instancia de WebSocketClass
 
       // Configurar intervalo para insertar registro cada 20 segundos
         await MongoDB.insertarRegistro(dataAsString);
