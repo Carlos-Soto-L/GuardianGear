@@ -91,9 +91,14 @@ CASCO ESP32 2
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/a23021d7-5308-4308-90d9-3665278c68f5">
 </p>
 
-PANTALLITA
+CASCO NODE MCU
 <p align="center">
-  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/c1faf9ec-281d-4124-97a8-9ed2a80603ff">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/758aafb4-10b8-4e05-8a85-e9310691232a">
+</p>
+
+PANTALLITA Y ESP32-CAM
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/0426df01-886f-4856-b607-eef027e4e242">
 </p>
 
 
@@ -108,10 +113,17 @@ CASCO ESP32 2
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/38086d54-b7dc-4142-8211-039afb0e1713">
 </p>
 
+CASCO NODE MCU
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/c5dd0d0e-395f-4df5-a932-7b864431967c">
+</p>
+
+
 PANTALLITA
 <p align="center">
-  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/146ef5df-52c9-422c-bb3a-70e101510fd5">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/7f17be93-66e3-4ec9-9248-aec5de2663f7">
 </p>
+
 
 ## Prototipo en 3D
 <p align="center">
