@@ -69,7 +69,7 @@ Ejemplo de un registro:
 
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/286c879d-18d3-42a3-bd63-713bd65d024d)
 
-## Diagrama de despliegue (HASTA ORDINARIO U3)
+## Diagrama de despliegue (HASTA R1 U3)
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/274135fb-325d-45a3-80b8-bdf372dedf50)
 
 ## Diagrama de despliegue (FINAL)
@@ -115,11 +115,15 @@ PANTALLITA
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/145bdc55-b6d9-4781-9863-27ec6c66aa24">
 </p>
 
-## Demostración
+## Demostración (R1 U3)
 Video 1: https://drive.google.com/file/d/1sXoNNI0tmseOjuG5xBuzNqxq9jSM3smJ/view?usp=sharing
 
 
 Video 2: https://drive.google.com/file/d/1OzAJaQYKNuirxHbniSRFi4TqVrkwg_mh/view?usp=sharing
+
+## Demostración (FINAL)
+
+Video: 
 
 ## Fotografías del casco
 <p align="center">
