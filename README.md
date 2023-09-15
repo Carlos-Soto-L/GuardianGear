@@ -81,9 +81,14 @@ Ejemplo de un registro:
 </p>
 
 ## Prototipo en Fitzing
-CASCO
+CASCO ESP32 1
 <p align="center">
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/3ee351e7-4963-47b1-8631-f0ddf93159ed">
+</p>
+
+CASCO ESP32 2
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/a23021d7-5308-4308-90d9-3665278c68f5">
 </p>
 
 PANTALLITA
@@ -93,9 +98,14 @@ PANTALLITA
 
 
 ## Placa PCB
-CASCO
+CASCO ESP32 1
 <p align="center">
   <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/df405c02-3de7-447b-93f9-96d790d16ab5">
+</p>
+
+CASCO ESP32 2
+<p align="center">
+  <img src="https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/38086d54-b7dc-4142-8211-039afb0e1713">
 </p>
 
 PANTALLITA
