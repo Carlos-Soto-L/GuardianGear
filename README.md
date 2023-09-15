@@ -52,6 +52,13 @@
 | HU006 | Como beneficiario, deseo que una alarma me alerte cuando mi encargado ha intentado contactarme por algún asunto y no ha podido hacerlo. | Debe | 4 | En el sitio web habrá un botón que, al presionarlo, activará una alarma integrada en el casco. | Jairo Barron |
 | HU007 | Como beneficiario, necesito que mi ubicación, al ser almacenada en la base de datos, esté encriptada para protegerme de posibles peligros.| Debe | 1 | Al consultar en la base de datos los registros de la ubicación del casco, estos deben estar encriptados. | Carlos Daniel |
 | HU008 | Como beneficiario, necesito que el sitio web donde se muestra información de mi ubicación y entorno esté protegido por un módulo de login, asegurando así que solo las personas autorizadas puedan ingresar. | Debe | 1 | Al acceder al sitio web, este debe solicitar credenciales para permitir el acceso. | Carlos Daniel |
+| HU009 | Como beneficiario, me gustaria que el casco iliminara la area de enfrente cuando me inclino a leer algun documento con el casco puesto | Debe | 1 | Al inclinar la cabeza, se debe de iluminar el area de enfrente del casco. | Ricardo Alexis |
+| HU010 | Como beneficiario, me gustaria tener una lampara integrada al casco, la cual pueda manipular su intenciadad, esto para momentos en donde necesito revisar documentos o mi motocicleta. | Debe | 1 | Al dar clic en el potenciometro, se debe prender el foco led, ademas se debe controlar la potencia de este con el giro del potenciomentro. | Ricardo Alexis |
+| HU011 | Como beneficiario, me gustaria dar un advertencia de distancia a los vehiculos que se encuentran en trasinto atras de mi. | Debe | 1 | Se integrará un tipo semaforo, en donde se detecte la distancia del vehiculo que este en la parte de atras y se encienda la matriz de kled de acuerdo a la distancia capturada (rojo - muy cerca, naranja - medio, verde - optimo ) | Jairo Barron |
+| HU012 | Como beneficiario, me gustaria encender el mecanismo del semaforo de una forma creativa. | Debe | 1 | Se integrará un sensor touch, en cuanto se active este se encenderá el mecanismo mensionado. | Jairo Barron |
+| HU013 | Como beneficiario, me gustaria que mi superior tenga conocimiento que me he puesto el casco al momento de manejar. | Debe | 1 | Al momento de colocar la cabeza dentro del casco, este envia una alerta al sitio web informando del estado. | Carlos Soto |
+| HU014 | Como beneficiario, me gustaria me gustaria conocer algunos aspecto de mi salud. | Debe | 1 | Se integrará un sensor de temperatura y otro medidor cardiaco, los cuales mostrará los valores del usuario en una pantallita. | Carlos Soto |
+
 ## Base de datos
 MongoDB
 
@@ -62,9 +69,11 @@ Ejemplo de un registro:
 
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/286c879d-18d3-42a3-bd63-713bd65d024d)
 
-## Diagrama de despliegue
+## Diagrama de despliegue (HASTA ORDINARIO U3)
 ![image](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/274135fb-325d-45a3-80b8-bdf372dedf50)
 
+## Diagrama de despliegue (FINAL)
+![DIAGRAMA FINAL](https://github.com/Carlos-Soto-L/GuardianGear/assets/67080087/3f2af7a6-52d5-4669-a637-825617462b45)
 
 ## Prototipo en dibujo
 <p align="center">
